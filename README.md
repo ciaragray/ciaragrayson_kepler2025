@@ -1,3 +1,2 @@
 # ciaragrayson_kepler2025
-Ciara Grayson 
-kepler 
+Portfolio Project for Code the Dream class kepler 
