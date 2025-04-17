@@ -1,0 +1,24 @@
+body {
+  background-color: #3c2f2f;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+}
+
+section {
+  margin-bottom: 40px;
+  padding: 20px;
+}
+
+#Experience {
+  justify-content: center;
+}
+h1 {
+  font-weight: 300;
+  font-size: large;
+  font-family: "Courier New", Courier, monospace;
+  color: #e6d5c3;
+}
+h2 {
+  font-size: medium;
+  color: beige;
+}
