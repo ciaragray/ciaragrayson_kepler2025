@@ -1,10 +1,26 @@
 <!DOCTYPE html>
 <head>
-  <title>Ciara Grayson's Portfolio</title>
+  <title>Ciara Grayson | Portfolio</title>
   <link rel="stylesheet" href="css/index.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap"
+    rel="stylesheet"
+  />
 </head>
 <body>
-  <h1>Ciara Grayson</h1>
+  <nav class="navbar">
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Connect</a></li>
+    </ul>
+  </nav>
+
+  <h1>Ciara Grayson | Portfolio</h1>
   <section id="About">
     <h2>About</h2>
     <p>
@@ -18,29 +34,44 @@
       experiences.
     </p>
   </section>
-  <section id="Experience">
+  <section id="Skills">
+    <h2>
+      <ul>
+        <li>CSS</li>
+        <li>HTML</li>
+        <li>JavaScript</li>
+        <li>SQL</li>
+        <li>Figma</li>
+        <li>Git</li>
+        <li>Github</li>
+      </ul>
+    </h2>
+  </section>
+  <section id="Projects"><h2></h2></section>
+  <section id="Experience" class = "Experience">
     <h2>Experience</h2>
     <ul>
-      <li>CSS</li>
-      <li>HTML</li>
-      <li>JavaScript</li>
-      <li>SQL</li>
-      <li>Figma</li>
-      <li>Git</li>
-      <li>Github</li>
+      <li>
+        <div class="job">
+            <div class="job-header">
+              <h3 class="job-title">Front-End Developer in Training</h3>
+              <span class="job-dates">Code the Dream | Oct 2024 – Present</span>
+            </div>
+        <ul class = "Job Description">
+            <li>Learning HTML, CSS, JavaScript, Git, and GitHub through real-world projects</li><li>Collaborating with mentors and peers to build accessible, responsive web apps
+
+        </li>
+        <li>Gaining hands-on experience with version control and debugging best practices</li><li>Applying Agile principles and receiving feedback through code reviews</li></ul>
+   
+      </li>
     </ul>
   </section>
   <section id="Connect">
-    <h2>Connect</h2>
-    <ul>
-      <li>
+    <h2> Let's Connect!</h2>
+    <div class="social-links">
         <a href="https://github.com/ciaragray" target="_blank">GitHub</a>
-      </li>
-      <li>
-        <a href="https://www.linkedin.com/in/ctgrayson10209" target="_blank"
-          >LinkedIn</a
-        >
-      </li>
-    </ul>
+        <a href="https://www.linkedin.com/in/ctgrayson10209" target="_blank">LinkedIn</a>
+      </div>
+    </section>
   </section>
 </body>
