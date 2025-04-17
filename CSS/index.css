@@ -12,13 +12,67 @@ section {
 #Experience {
   justify-content: center;
 }
+
+.cinzel-<uniquifier > {
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
 h1 {
-  font-weight: 300;
-  font-size: large;
-  font-family: "Courier New", Courier, monospace;
+  font-weight: 500;
+  font-size: x-large;
+  font-family: "Cinzel";
   color: #e6d5c3;
 }
 h2 {
   font-size: medium;
   color: beige;
+}
+
+.job {
+  margin-bottom: 2rem;
+}
+
+.job-header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.job-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.job-dates {
+  font-size: 1rem;
+  color: var(--dusty-gold-leaf);
+  font-style: italic;
+}
+
+.job-description {
+  margin-top: 1rem;
+  padding-left: 1.5rem;
+  line-height: 1.6;
+}
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+
+.social-links a {
+  color: var(--emerald-green);
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: color 0.3s;
+}
+
+.social-links a:hover {
+  color: var(--dusty-gold-leaf);
 }
