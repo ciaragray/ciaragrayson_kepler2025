@@ -7,6 +7,14 @@ body {
   color: white;
   font-family: "Courier New", Courier, monospace;
 }
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  font-size: large;
+  border: 10px;
+  font-family: "Courier New", Courier, monospace;
+}
 
 section {
   margin-bottom: 40px;
@@ -14,6 +22,7 @@ section {
 }
 
 #Experience {
+  display: flex;
   justify-content: center;
 }
 
@@ -82,6 +91,7 @@ h2 {
 }
 
 /* Tablet */
+
 @media (max-width: 1024px) and (min-width: 769px) {
   body {
     padding: 1rem;
