@@ -95,6 +95,16 @@ h2 {
   color: var(--dusty-gold-leaf);
 }
 
+.skill-tag {
+  display: inline-block;
+  background-color: var(--mocha-latte);
+  color: var(--deep-espresso);
+  padding: 0.4rem 0.8rem;
+  border-radius: 20px;
+  margin: 0.3rem;
+  font-weight: bold;
+}
+
 /* Tablet */
 
 @media (max-width: 1024px) and (min-width: 769px) {
