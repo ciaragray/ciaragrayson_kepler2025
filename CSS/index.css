@@ -1,3 +1,7 @@
+:root {
+  --dusty-gold-leaf: #c29757;
+  --emerald-green: #317773;
+}
 * {
   margin: 0;
   box-sizing: border-box;
@@ -11,9 +15,14 @@ body {
   list-style: none;
   display: flex;
   justify-content: space-between;
-  font-size: large;
-  border: 10px;
+  font-size: larger;
+  border: 10px solid #e6d5c3;
   font-family: "Courier New", Courier, monospace;
+}
+.navbar a {
+  color: #e6d5c3;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 section {
