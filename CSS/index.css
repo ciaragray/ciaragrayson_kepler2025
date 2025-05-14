@@ -1,3 +1,7 @@
+:root {
+  --dusty-gold-leaf: #c29757;
+  --emerald-green: #317773;
+}
 * {
   margin: 0;
   box-sizing: border-box;
@@ -12,7 +16,7 @@ body {
   display: flex;
   justify-content: space-between;
   font-size: larger;
-  border: 10px;
+  border: 10px solid #e6d5c3;
   font-family: "Courier New", Courier, monospace;
 }
 .navbar a {
@@ -93,16 +97,6 @@ h2 {
 
 .social-links a:hover {
   color: var(--dusty-gold-leaf);
-}
-
-.skill-tag {
-  display: inline-block;
-  background-color: var(--mocha-latte);
-  color: var(--deep-espresso);
-  padding: 0.4rem 0.8rem;
-  border-radius: 20px;
-  margin: 0.3rem;
-  font-weight: bold;
 }
 
 /* Tablet */
