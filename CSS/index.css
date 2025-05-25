@@ -9,7 +9,10 @@
 body {
   background-color: #3c2f2f;
   color: white;
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
 }
 .navbar ul {
   list-style: none;
@@ -35,12 +38,6 @@ section {
   justify-content: center;
 }
 
-.cinzel-<uniquifier > {
-  font-family: "Cinzel", serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}
 h1 {
   font-weight: 500;
   font-size: x-large;
