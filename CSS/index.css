@@ -95,6 +95,77 @@ h2 {
 .social-links a:hover {
   color: var(--dusty-gold-leaf);
 }
+/* leave message form */
+form#leave_message {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+form#leave_message input,
+form#leave_message textarea,
+form#leave_message button {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+/* Button */
+form#leave_message button {
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+form#leave_message button:hover {
+  background-color: #45a049;
+}
+/* Message list */
+#messages ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+#messages li {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#messages a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+
+#messages span {
+  margin-left: 10px;
+  flex-grow: 1;
+}
+
+#messages button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#messages button:hover {
+  background-color: darkred;
+}
 
 /* Tablet */
 
