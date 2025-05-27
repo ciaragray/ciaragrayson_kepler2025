@@ -30,3 +30,21 @@ messageForm.addEventListener("submit", function (event) {
 let messageSection = document.getElementById("messages");
 let messageList = document.querySelector(messageSection);
 document.getElementById("messageForm").reset();
+
+fetch("https://api.github.com/users/ciaragray/repos")
+  .then((response) => response.json())
+  .then((repositories) => {
+    console.log("GitHub Repositories:", repositories);
+
+    const projectSection = document.getElementById("projects");
+    const projectList = projectSection.querySelector("ul");
+
+    for (let i = 0; i < repositories.length; i++) {
+      const project = document.createElement("li");
+      project.innerText = repositories[i].name;
+      projectList.appendChild(project);
+    }
+  })
+  .catch((error) => {
+    console.error("Something went wrong:", error);
+  });
